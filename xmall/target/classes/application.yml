@@ -1,0 +1,12 @@
+#  更改端口号
+server:
+  port: 8088
+# 设置dubbo
+spring:
+  dubbo:
+    application:
+      name: xmall
+    registry:
+      address: zookeeper://localhost:2181
+    scan: com.augustars.xmall
+      
